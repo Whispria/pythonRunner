@@ -1,7 +1,6 @@
 # 🧾 Script - run.sh
 
-Este script permite ejecutar cualquier archivo Python dentro de un entorno virtual automáticamente.  
-Es útil para automatizaciones defensivas o pequeños proyectos.
+Script Bash para ejecutar archivos Python dentro de un entorno virtual automáticamente
 
 ---
 ## 🚀 ¿Cómo usarlo?
