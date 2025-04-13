@@ -18,15 +18,20 @@ python3 -m venv venv
 ./run.sh
 ```
 
-3. **El script te preguntará el nombre del archivo Python a ejecutar**.
+3. **El script verificará si el entorno virtual venv/ existe**
+   
+- Si no existe, mostrará un mensaje y se detendrá.
+- Si existe, te pedirá el nombre del script .py a ejecutar
 
 ```bash
 🧾 Nombre del script Python a ejecutar (por ejemplo: script.py): pyscrap.py
 ```
 
+4. Si el archivo .py no existe, también te avisará antes de continuar.
+
 ## 📦 Requisitos
 
 - Python 3
-- Tener creado un entorno virtual (venv/)
+- Haber creado previamente un entorno virtual con `python3 -m venv venv`
 - El script .py debe estar en la misma carpeta
 
